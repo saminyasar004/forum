@@ -96,7 +96,7 @@
         ],
         "comments": [
             {
-                "id": "c3",
+                "id": "c5",
                 "author": "Chris Evans",
                 "avatar": "https://i.pravatar.cc/50",
                 "content": "`const` is for variables that should not be reassigned, `let` is for variables scoped to a block, and `var` is function-scoped but outdated.",
@@ -104,7 +104,7 @@
                 "timestamp": "a day ago"
             },
             {
-                "id": "c4",
+                "id": "c6",
                 "author": "Sara Brown",
                 "avatar": "https://i.pravatar.cc/50",
                 "content": "Avoid using `var` in modern JavaScript. Stick to `let` and `const` for better scoping and safety.",
@@ -137,7 +137,7 @@
         ],
         "comments": [
             {
-                "id": "c3",
+                "id": "c7",
                 "author": "Chris Evans",
                 "avatar": "https://i.pravatar.cc/50",
                 "content": "`const` is for variables that should not be reassigned, `let` is for variables scoped to a block, and `var` is function-scoped but outdated.",
@@ -145,12 +145,22 @@
                 "timestamp": "a day ago"
             },
             {
-                "id": "c4",
+                "id": "c8",
                 "author": "Sara Brown",
                 "avatar": "https://i.pravatar.cc/50",
                 "content": "Avoid using `var` in modern JavaScript. Stick to `let` and `const` for better scoping and safety.",
                 "votes": 10,
-                "timestamp": "a day ago"
+                "timestamp": "a day ago",
+                "replies": [
+                    {
+                        "id": "c9",
+                        "author": "Mike Johnson",
+                        "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&h=100&fit=crop",
+                        "content": "Great point about HttpOnly cookies! Also worth mentioning that you should implement CSRF protection when using cookies.",
+                        "votes": 8,
+                        "timestamp": "20 hours ago"
+                    }
+                ]
             }
         ],
         "views": ["u4", "u5", "u3"]

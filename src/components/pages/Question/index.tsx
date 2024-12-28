@@ -14,11 +14,16 @@ import { Avatar } from "@/components/ui/avatar";
 import CommentEditor from "./CommentEditor";
 import CommentTree from "./CommentsTree";
 import { useComments } from "@/components/hooks";
+import { useParams } from "react-router-dom";
 
 export default function QuestionPage() {
     const [isBookmarked, setIsBookmarked] = useState(false);
     const [votes, setVotes] = useState(42);
-    const { comments, addComment, addReply, updateVotes } = useComments();
+
+    const questionId = useParams().id || "";
+    // console.log(questionId);
+    const { comments, addComment, addReply, updateVotes } =
+        useComments(questionId);
 
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
