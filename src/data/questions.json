@@ -1,0 +1,158 @@
+[
+    {
+        "id": "q1",
+        "question": "How can I center a div in CSS?",
+        "description": "I'm trying to vertically and horizontally center a div using CSS. What is the best approach for modern browsers?",
+        "author": "John Doe",
+        "authorImg": "https://avatar.iran.liara.run/public",
+        "time": "2 hours ago",
+        "tags": [
+            {
+                "id": "t1",
+                "name": "CSS"
+            },
+            {
+                "id": "t2",
+                "name": "HTML"
+            }
+        ],
+        "comments": [
+            {
+                "id": "c1",
+                "author": "Jane Smith",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "You can use flexbox. Add `display: flex; justify-content: center; align-items: center;` to the parent container.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            },
+            {
+                "id": "c2",
+                "author": "Mike Johnson",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "Grid is another option. Use `display: grid; place-items: center;` on the parent container.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            }
+        ],
+        "views": ["u1", "u2", "u3"]
+    },
+    {
+        "id": "q2",
+        "question": "What is the difference between let, const, and var in JavaScript?",
+        "description": "I'm confused about when to use let, const, or var in JavaScript. Can someone explain the differences and provide examples?",
+        "author": "Alice Johnson",
+        "authorImg": "https://avatar.iran.liara.run/public",
+        "time": "5 hours ago",
+        "tags": [
+            {
+                "id": "t3",
+                "name": "JavaScript"
+            },
+            {
+                "id": "t4",
+                "name": "Programming"
+            }
+        ],
+        "comments": [
+            {
+                "id": "c3",
+                "author": "Chris Evans",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "`const` is for variables that should not be reassigned, `let` is for variables scoped to a block, and `var` is function-scoped but outdated.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            },
+            {
+                "id": "c4",
+                "author": "Sara Brown",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "Avoid using `var` in modern JavaScript. Stick to `let` and `const` for better scoping and safety.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            }
+        ],
+        "views": ["u4", "u5"]
+    },
+    {
+        "id": "q3",
+        "question": "What is the functional component pattern in React?",
+        "description": "I'm confused about when to use let, const, or var in JavaScript. Can someone explain the differences and provide examples?",
+        "author": "Alice Johnson",
+        "authorImg": "https://avatar.iran.liara.run/public",
+        "time": "3d ago",
+        "tags": [
+            {
+                "id": "t3",
+                "name": "JavaScript"
+            },
+            {
+                "id": "t4",
+                "name": "Programming"
+            },
+            {
+                "id": "t5",
+                "name": "React"
+            }
+        ],
+        "comments": [
+            {
+                "id": "c3",
+                "author": "Chris Evans",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "`const` is for variables that should not be reassigned, `let` is for variables scoped to a block, and `var` is function-scoped but outdated.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            },
+            {
+                "id": "c4",
+                "author": "Sara Brown",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "Avoid using `var` in modern JavaScript. Stick to `let` and `const` for better scoping and safety.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            }
+        ],
+        "views": ["u4", "u5", "u3"]
+    },
+    {
+        "id": "q4",
+        "question": "What is the functional component pattern in React?",
+        "description": "I'm confused about when to use let, const, or var in JavaScript. Can someone explain the differences and provide examples?",
+        "author": "Alice Johnson",
+        "authorImg": "https://avatar.iran.liara.run/public",
+        "time": "3d ago",
+        "tags": [
+            {
+                "id": "t3",
+                "name": "JavaScript"
+            },
+            {
+                "id": "t4",
+                "name": "Programming"
+            },
+            {
+                "id": "t5",
+                "name": "React"
+            }
+        ],
+        "comments": [
+            {
+                "id": "c3",
+                "author": "Chris Evans",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "`const` is for variables that should not be reassigned, `let` is for variables scoped to a block, and `var` is function-scoped but outdated.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            },
+            {
+                "id": "c4",
+                "author": "Sara Brown",
+                "avatar": "https://avatar.iran.liara.run/public",
+                "content": "Avoid using `var` in modern JavaScript. Stick to `let` and `const` for better scoping and safety.",
+                "votes": 10,
+                "timestamp": "a day ago"
+            }
+        ],
+        "views": ["u4", "u5", "u3"]
+    }
+]
