@@ -67,7 +67,7 @@ export default function Header() {
                     <Link to={"/"}>
                         <Avatar className={cn("ring-1 ring-primary")}>
                             <AvatarImage
-                                src="https://avatar.iran.liara.run/public"
+                                src="https://i.pravatar.cc/50"
                                 alt="@shadcn"
                             />
                             <AvatarFallback>CN</AvatarFallback>
